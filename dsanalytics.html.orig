@@ -43,6 +43,16 @@
     <![endif]-->
 
 </head>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-42770094-1', 'definingsales.com');
+  ga('send', 'pageview');
+
+</script>
 <body>
 	
 	<!--start: Header -->
@@ -60,17 +70,18 @@
 	            		<span class="icon-bar"></span>
 	          		</a>
 	          		
- 					<a class="brand" href="index.html"><span id="D">D</span><span id="S">S</span></a>
+ 					<a class="brand" href="index.html"><img src="img/logo.png" /></a>
+
+ 					<!-- <span id="D">D</span><span id="S">S</span> -->
 
 	          		<div class="nav-collapse collapse"> 
 	            		<ul class="nav">
-	            			<li class="active"><a href="dsanalytics.html">DS Analytics</a></li>
-							<li><a href="index.html">Technology</a></li>
-	              			<li><a href="about.html">DS Education</a></li>
-	              			<li><a href="about.html">Case Studies</a></li>							
-							<li><a href="about.html">About Us</a></li>
-							<li><a href="blog.html">Blog</a></li>
-	              			<li><a href="contact.html">Contact Us</a></li>
+							<li><a href="dstechnology.html">DS Technology</a></li>
+	              			<li><a href="dseducation.html">DS Education</a></li>						
+	              			<li class="active"><a href="dsanalytics.html">DS Analytics</a></li>
+	              			<li><a href="about.html">About Us</a></li>
+							<li><a href="#">Blog</a></li>
+	              			<!-- <li><a href="contact.html">Contact Us</a></li> -->
 	            		</ul>
 	          		</div>
 	        	</div>
@@ -91,7 +102,7 @@
 			<!-- start: Container -->
 			<div class="container">
 
-				<h2><i class="ico-charts"></i>DS Analytics</h2>
+				<h2><i class="ico-charts"></i>DS <span>Analytics</span></h2>
 
 			</div>
 			<!-- end: Container  -->
@@ -103,102 +114,111 @@
 	
 	<!--start: Wrapper-->
 	<div id="wrapper">
+		<div class="row">
+			<div class="span3"></div>
+			
+			<div class="span6">
+				<img src="img/dsbeachtree.png" />
+			</div>
+
+			<div class="span3"></div>
+		</div>
+
+		<!-- End Row -->
+
+		<div class="row">
+			<div class="span2"></div>
+			
+			<div class="span8 analyticsabout">
+				Check back in the coming months to learn how DS Analytics can give you a clear view of your pipeline and your personal DS Profile. 
+			</div>
+<<<<<<< HEAD
+					      		        		<hr>
+
+        		<div class="clearfix"></div>
+				<hr class="clean">
+				<div class="contact">If youuur business development efforts are not meeting expectations then contact us for a free assessment.<i class="ico-envelope ico-white"></i><a class="contact" href="mailto:info@definingsales.com">info@definingsales.com</a> <i class="ico-iphone ico-white"></i>(732) 851-3213</div>
+=======
+					      		        		
+
+        		<div class="clearfix"></div>
+				<hr class="clean">
+				<div class="contact">If your business development efforts are not meeting expectations then contact us for a free assessment.<i class="ico-envelope ico-white"></i><a class="contact" href="mailto:info@definingsales.com">info@definingsales.com</a> <i class="ico-iphone ico-white"></i>(732) 851-3213</div>
+>>>>>>> b278893ad3a6ad86390a7cc210c07f4266aa56f0
+		</div>	
+
+
+		<!-- End Row -->
+		<div class="clearfix"></div>	
+
+		<hr>
+	</div>
+	<!-- End Wrapper -->
+
+	<!-- start: Footer Menu -->
+	<div id="footer-menu" class="hidden-tablet hidden-phone">
+
+		<!-- start: Container -->
+		<div class="container">
+			
+			<!-- start: Row -->
+			<div class="row">
+
+				<!-- start: Footer Menu Logo -->
+				<div class="span2">
+					<div id="footer-menu-logo">
+						<a class="brand" href="#">Defining<span>Sales</span>.</a>
+					</div>
+				</div>
+				<!-- end: Footer Menu Logo -->
+
+				<!-- start: Footer Menu Links-->
+				<div class="span9">
+					
+					<div id="footer-menu-links">
+
+						<ul id="footer-nav">
+
+							<li><a href="index.html">Start</a></li>
+
+							<li><a href="dstechnology.html">DS Technology</a></li>
+
+							<li><a href="dseducation.html">DS Education</a></li>
+
+							<li><a href="dsanalytics.html">DS Analytics</a></li>
+							
+							<li><a href="about.html">About Us</a></li>
+
+							<li><a href="#">Blog</a></li>
+
+							<!-- <li><a href="contact.html">Contact Us</a></li> -->
+
+						</ul>
+
+					</div>
+					
+				</div>
+				<!-- end: Footer Menu Links-->
+
+				<!-- start: Footer Menu Back To Top -->
+				<div class="span1">
+						
+					<div id="footer-menu-back-to-top">
+						<a href="#"></a>
+					</div>
 				
-		<!--start: Container -->
-    	<div class="container">
-	
-			<div class="clearfix"></div>
-			<hr>
-	
-      		<!-- start: Row -->
-      		<div class="row">
-	
-        		<div class="span4">
-          			<div class="icons-box box">
-						<i class="ico-iphone ico-color circle-color big"></i>
-						<div class="title"><h3>Mobile</h3></div>
-						<p>
-							Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
-						</p>
-						<div class="clear"></div>
-					</div>
-        		</div>
-
-        		<div class="span4">
-          			<div class="icons-box box">
-						<i class="ico-imac circle big"></i>
-						<div class="title"><h3>Web</h3></div>
-						<p>
-							Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
-						</p>
-						<div class="clear"></div>
-					</div>
-        		</div>
-
-        		<div class="span4">
-          			<div class="icons-box box">
-						<i class="ico-ok ico-white circle-color-full big-color"></i>
-						<div class="title"><h3>Responsive</h3></div>
-						<p>
-							Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
-						</p>
-						<div class="clear"></div>
-					</div>
-        		</div>
-
+				</div>
+				<!-- end: Footer Menu Back To Top -->
+			
 			</div>
 			<!-- end: Row -->
-	      		
-			<div class="clearfix"></div>
-			<hr>
-
-	      	<!-- start: Row -->
-	      	<div class="row">
-
-        		<div class="span4">
-          			<div class="icons-box box">
-						<i class="ico-embed-close ico-color circle-color big"></i>
-						<div class="title"><h3>HTML5 & CSS3</h3></div>
-						<p>
-							Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
-						</p>
-						<div class="clear"></div>
-					</div>
-        		</div>
-
-        		<div class="span4">
-          			<div class="icons-box box">
-						<i class="ico-shopping-cart circle big"></i>
-						<div class="title"><h3>e-commerce</h3></div>
-						<p>
-							Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
-						</p>
-						<div class="clear"></div>
-					</div>
-        		</div>
-
-        		<div class="span4">
-          			<div class="icons-box box">
-						<i class="ico-thumbs-up ico-white circle-color-full big-color"></i>
-						<div class="title"><h3>Social Marketing</h3></div>
-						<p>
-							Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
-						</p>
-						<div class="clear"></div>
-					</div>
-        		</div>
-
-      		</div>
-			<!-- end: Row -->
 			
-			<div class="clearfix"></div>
-			<hr>
-      	
 		</div>
-		<!--end: Container-->
-				
-	</div>
-	<!-- end: Wrapper  -->			
+		<!-- end: Container  -->	
+
+	</div>	
+	<!-- end: Footer Menu -->
+
 
 	<!-- start: Footer -->
 	<div id="footer">
@@ -214,14 +234,11 @@
 					
 					<h3>Defining Sales</h3>
 
-					<p>
-						<i class="mini-ico-map-marker mini-white"></i> 30 South Park Avenue
-					</p>
 					<p>	
-						<i class="mini-ico-map-marker mini-white"></i> New York, NY 10036
+						<i class="mini-ico-map-marker mini-white"></i> NY / NJ 
 					</p>	
 					<p>	
-						<i class="ico-z-iphone"></i> Phone: (123) 456-7890
+						<i class="ico-z-iphone"></i> Phone: (732) 851-3213
 					</p>
 					<p>
 						<i class="mini-ico-envelope mini-white"></i> Email: info@definingsales.com
@@ -254,7 +271,7 @@
 					<h3>Follow Us</h3>
 					
 					<div id="social-r" class="tooltips">
-						<a href="#" rel="tooltip" title="Amazon" class="amazon">Amazon</a>
+		<!-- 				<a href="#" rel="tooltip" title="Amazon" class="amazon">Amazon</a>
 						<a href="#" rel="tooltip" title="Behance" class="behance">Behance</a>
 						<a href="#" rel="tooltip" title="Blogger" class="blogger">Blogger</a>
 						<a href="#" rel="tooltip" title="DeviantART" class="deviantart">DeviantART</a>
@@ -267,27 +284,58 @@
 						<a href="#" rel="tooltip" title="Google Plus" class="googleplus">Google Plus</a>
 						<a href="#" rel="tooltip" title="Joli Cloud" class="jolicloud">Joli Cloud</a>
 						<a href="#" rel="tooltip" title="Last FM" class="last-fm">Last FM</a>
-						<a href="#" rel="tooltip" title="LinkedIn" class="linkedin">LinkedIn</a>
+						
 						<a href="#" rel="tooltip" title="Picasa" class="picasa">Picasa</a>
 						<a href="#" rel="tooltip" title="Pintrest" class="pintrest">Pintrest</a>
 						<a href="#" rel="tooltip" title="RSS" class="rss">RSS</a>
 						<a href="#" rel="tooltip" title="Skype" class="skype">Skype</a>
 						<a href="#" rel="tooltip" title="Spotify" class="spotify">Spotify</a>
 						<a href="#" rel="tooltip" title="StumpleUpon" class="stumbleupon">StumbleUpon</a>
-						<a href="#" rel="tooltip" title="Tumblr" class="tumblr">Tumblr</a>
-						<a href="#" rel="tooltip" title="Twitter" class="twitter">Twitter</a>
-						<a href="#" rel="tooltip" title="Vimeo" class="vimeo">Vimeo</a>
+						<a href="#" rel="tooltip" title="Tumblr" class="tumblr">Tumblr</a> -->
+						<a href="http://www.linkedin.com/pub/defining-sales/78/269/79" rel="tooltip" title="LinkedIn" class="linkedin">LinkedIn</a>
+						<a href="http://www.twitter.com/definingsales" rel="tooltip" title="Twitter" class="twitter">Twitter</a>
+				<!-- 		<a href="#" rel="tooltip" title="Vimeo" class="vimeo">Vimeo</a>
 						<a href="#" rel="tooltip" title="WordPress" class="wordpress">WordPress</a>
 						<a href="#" rel="tooltip" title="Xing" class="xing">Xing</a>
 						<a href="#" rel="tooltip" title="Yahoo" class="yahoo">Yahoo</a>
 						<a href="#" rel="tooltip" title="YouTube" class="youtube">YouTube</a>
 						<a href="#" rel="tooltip" title="Soundcloud" class="soundcloud">Soundcloud</a>
 						<a href="#" rel="tooltip" title="myspace" class="myspace">myspace</a>
-						<a href="#" rel="tooltip" title="vkontakte" class="vkontakte">vkontakte</a>
+						<a href="#" rel="tooltip" title="vkontakte" class="vkontakte">vkontakte</a> -->
 					</div>
 				
 				</div>
 				<!-- end: Follow Us -->
+				<div class="span3">
+
+					<h3>Contact Us</h3>
+
+					<div id="emailform">
+						<!-- Do not change the code! -->
+						<!--<a id="foxyform_embed_link_453181" href="http://www.foxyform.com/">foxyform</a>
+						<script type="text/javascript">
+						(function(d, t){
+						   var g = d.createElement(t),
+						       s = d.getElementsByTagName(t)[0];
+						   g.src = "http://www.foxyform.com/js.php?id=453181&sec_hash=eb0e9cb3b4b&width=350px";
+						   s.parentNode.insertBefore(g, s);
+						}(document, "script"));
+						</script>-->
+						<!-- Do not change the code! -->
+						<a id="foxyform_embed_link_453185" href="http://www.foxyform.com/">foxyform</a>
+						<script type="text/javascript">
+						(function(d, t){
+						   var g = d.createElement(t),
+						       s = d.getElementsByTagName(t)[0];
+						   g.src = "http://www.foxyform.com/js.php?id=453185&sec_hash=356cefc8bbc&width=350px";
+						   s.parentNode.insertBefore(g, s);
+						}(document, "script"));
+						</script>
+						<!-- Do not change the code! -->
+					</div>
+
+
+				</div>
 				
 			</div>
 			<!-- end: Row -->	
@@ -297,75 +345,11 @@
 
 	</div>
 	<!-- end: Footer -->
-	
-	<!-- start: Footer Menu -->
-	<div id="footer-menu" class="hidden-tablet hidden-phone">
-
-		<!-- start: Container -->
-		<div class="container">
-			
-			<!-- start: Row -->
-			<div class="row">
-
-				<!-- start: Footer Menu Logo -->
-				<div class="span2">
-					<div id="footer-menu-logo">
-						<a class="brand" href="#">Defining<span>Sales</span>.</a>
-					</div>
-				</div>
-				<!-- end: Footer Menu Logo -->
-
-				<!-- start: Footer Menu Links-->
-				<div class="span9">
-					
-					<div id="footer-menu-links">
-
-						<ul id="footer-nav">
-
-							<li><a href="index.html">Start</a></li>
-
-							<li><a href="services.html">DS Analytics</a></li>
-
-							<li><a href="services.html">Technology</a></li>
-
-							<li><a href="pricing.html">Case Studies</a></li>
-							
-							<li><a href="contact.html">Resources</a></li>
-
-							<li><a href="contact.html">Blog</a></li>
-
-							<li><a href="contact.html">Contact Us</a></li>
-
-						</ul>
-
-					</div>
-					
-				</div>
-				<!-- end: Footer Menu Links-->
-
-				<!-- start: Footer Menu Back To Top -->
-				<div class="span1">
-						
-					<div id="footer-menu-back-to-top">
-						<a href="#"></a>
-					</div>
-				
-				</div>
-				<!-- end: Footer Menu Back To Top -->
-			
-			</div>
-			<!-- end: Row -->
-			
-		</div>
-		<!-- end: Container  -->	
-
-	</div>	
-	<!-- end: Footer Menu -->
 	<!-- start: Copyright -->
 	<div id="copyright">
 	
 		<!-- start: Container -->
-		<div class="container">
+<!-- 		<div class="container">
 		
 			<div class="sixteen columns">
 				<p>
@@ -373,7 +357,7 @@
 				</p>
 			</div>
 	
-		</div>
+		</div> -->
 		<!-- end: Container  -->
 		
 	</div>	
