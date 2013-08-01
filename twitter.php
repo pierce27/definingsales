@@ -13,7 +13,7 @@ $config = array(
 	'consumer_key' => '9vtlyN6vT7I3SvnmUO2g',
 	'consumer_secret' => 'FCD9n1v0Mn9a0L4xq3xrUUxV1db0fHRGLsqRHQ0',
 	'use_whitelist' => true, // If you want to only allow some requests to use this script.
-	'base_url' => 'http://api.twitter.com/1/'
+	'base_url' => 'http://api.twitter.com/1.1/'
 );
  
  
