@@ -2,7 +2,7 @@
 
 jQuery(document).ready(function($){
 	
-	$.getJSON('twitter.php?url='+encodeURIComponent('statuses/user_timeline.json?screen_name=definingsales&count=3&include_rts=false&exclude_replies=true'), function(tweets){
+	$.getJSON('twitter.php?url='+encodeURIComponent('statuses/user_timeline.json?screen_name=definingsales&count=7&include_rts=false&exclude_replies=true'), function(tweets){
 		$("#twitter").html(tz_format_twitter(tweets));
 	}); 
 
