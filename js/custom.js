@@ -2,31 +2,11 @@
 
 jQuery(document).ready(function($){
 	
-	$.getJSON('http://api.twitter.com/1/statuses/user_timeline/definingsales.json?count=3&callback=?', function(tweets){
+	$.getJSON('twitter.php?url='+encodeURIComponent('statuses/user_timeline.json?screen_name=definingsales&count=3&include_rts=false&exclude_replies=true'), function(tweets){
 		$("#twitter").html(tz_format_twitter(tweets));
 	}); 
 
 });
-
-/* ------------------- fartscroll --------------------- */
-
-// fartscroll(200);
-
-/* ------------------- Navigation --------------------- */
-
-jQuery(document).ready(function($){
-	
-	$('.nav1').html("DS Analytics");
-	$('.nav2').html("DS Technology");
-	$('.nav3').html("DS Education");
-	$('.nav4').html("Case Studies");
-	$('.nav5').html("About Us");
-	$('.nav6').html("Blog");
-	$('.nav7').html("Contact Us");
-
-
-});
-
 
 /* ------------------- Client Carousel --------------------- */
 
@@ -134,13 +114,13 @@ jQuery(document).ready(function($){
 
 /* ------------------ Tooltips ----------------- */
 
-// jQuery(document).ready(function($) {
+jQuery(document).ready(function($) {
 
-//     $('.tooltips').tooltip({
-//       selector: "a[rel=tooltip]"
-//     })
+    $('.tooltips').tooltip({
+      selector: "a[rel=tooltip]"
+    })
 
-// });
+});
 
 /* ------------------ Progress Bar ------------------- */	
 
