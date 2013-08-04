@@ -325,6 +325,22 @@ iframe {
 	float: right;
 }
 
+.slogan {
+	position: relative;
+	top: 20px;
+	left: -5px;
+	font-size: 18px;
+	font-style: italic;
+	/*font-weight: bold;*/
+}
+
+.slogan-color {
+	color: #FF2100;
+	position: relative;
+	top: 20px;
+	right: 65px;
+}
+
 .nav-collapse.collapse {
     height: auto \9 !important;
     overflow: visible \9 !important;
@@ -2593,6 +2609,14 @@ form#newsletter input[type=submit] {
 	
 	#mobileOverlay {
 		display: none;
+	}
+
+	.slogan {
+		display: none;
+	}
+
+	.da-slide p {
+		font-size: 10px;
 	}
 
 }
