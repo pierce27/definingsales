@@ -8,6 +8,20 @@ jQuery(document).ready(function($){
 
 });
 
+/* ------------------- Slogan On Hover --------------------- */
+// jQuery(document).ready(function($){
+
+// 	$(".slogan").mouseover( function()
+// 	{
+// 	    $(".slogan-right").css("color", "#000033");
+// 	    $(".slogan-left").css("color", "#FF2100");
+
+// 	}).mouseout(function()
+// 	{
+// 		$(".slogan-right").css("color", "#FF2100");
+// 		$(".slogan-left").css("color", "#000033");
+// 	});
+// });
 /* ------------------- Client Carousel --------------------- */
 
 jQuery(document).ready(function($){
