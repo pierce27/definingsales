@@ -2826,6 +2826,25 @@ form#newsletter input[type=submit] {
 	#mobileOverlay {
 		display: visible !important;
 	}
+
+	/*Andrew Added*/
+
+	.slogan {
+		font-size: 12px;
+	}
+
+	.slogan-right {
+		position: relative;
+		left: 20px;
+		top: -2px;
+	}
+
+	.aboutLogo {
+		position: relative;
+		left: 15px;
+	}
+
+
 	
 	
 }
