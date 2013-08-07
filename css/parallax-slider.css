@@ -848,7 +848,7 @@
 	.da-slide p{
 		width: 80%;
 		top: 150px;
-		font-size: 16px;
+		font-size: 14px;
 		padding: 18px 20px 38px 20px;
 	}
 	.da-slide .da-img{
@@ -861,13 +861,14 @@
 
 	.da-dots{
 		width: 100%;
-		position: absolute;
+		position: relative;
 		text-align: center;
 		left: 0px;
 		bottom: 10px;
 		z-index: 2000;
 		-moz-user-select: none;
 		-webkit-user-select: none;
+		top: 96px;
 	}
 	
 	.da-arrows span{
