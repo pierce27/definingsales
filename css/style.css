@@ -2843,12 +2843,12 @@ form#newsletter input[type=submit] {
 	.aboutLogo {
 		position: relative;
 		left: 15px;
-		bottom: 210px;
+		bottom: 235px;
 	}
 
 	#aboutp {
 		position: relative;
-		top: 200px;
+		top: 210px;
 	}
 
 	iframe {
