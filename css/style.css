@@ -2861,6 +2861,10 @@ form#newsletter input[type=submit] {
 		background-color: white;
 	}
 
+	.desktopOnly {
+		display: none;
+	}
+
 
 	
 	
